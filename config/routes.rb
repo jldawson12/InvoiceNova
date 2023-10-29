@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :customers
   root 'dashboard#home'
 
   devise_for :users
